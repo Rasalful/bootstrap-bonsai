@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+header {
+  width: 100vw;
+  height: 550px;
+  background-image:url("../img/backgroundhead.png");
+}
+navbar-header {
+  position: relative;
+}
+navbar-brand {
+  position: absolute;
+}
+.logonav {
+  width: 2em;
+  height: 2em;
+}
+H4 {
+  position: absolute;
+  margin-left: 5%;
+  margin-top: 1.8%;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.navbar-link {
+  color: white;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+.top-freelancer {
+  margin-top: 15%;
+}
+.top-freelancer h3 {
+  font-size: 34px;
+}
+.top-freelancer p {
+  color: white;
+  font-size: 20px;
+}
+.top-freelancer button {
+  color: #6969A2;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  padding-left: 4em;
+  padding-right: 4em;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+#h3header {
+  color: white;
+}
+.quick
+{
+  margin-top: 5%;
+  width: 100%;
+  height: 550px;
+}
+.border {
+  border-right: 1px solid rgb(171, 171, 171);
+}
