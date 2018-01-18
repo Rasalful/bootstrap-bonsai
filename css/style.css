@@ -3,99 +3,139 @@
   padding: 0;
 }
 .container-fluid {
-  padding: 0;
-  margin: 0;
+    padding-left: 0;
+    padding-right: 0;
 }
+/*début header*/
 header {
-  width: 100vw;
-  height: 550px;
-  background-image:url("../img/backgroundhead.png");
+  background-image: url(../img/backgroundhead.png);
+  background-size: 100% 100%;
+  /*height: 550px;*/
+  padding: 0;
 }
-navbar-header {
+/*début menu burger*/
+.navbar-toggle .icon-bar {
+    background: #fff;
+}
+/*fin menu burger*/
+.navbar-header {
   position: relative;
 }
-navbar-brand {
-  position: absolute;
-}
-.logonav {
-  width: 2em;
-  height: 2em;
-}
-H4 {
-  position: absolute;
-  margin-left: 5%;
-  margin-top: 1.8%;
-  color: white;
-  letter-spacing: 2px;
-}
-
 .navbar-link {
-  color: white;
-  font-size: 18px;
-  letter-spacing: 2px;
+  color: #fff;
 }
-.top-freelancer {
-  margin-top: 15%;
+.navbar-brand {
+  color: #fff;
+  line-height: 30px;
+  letter-spacing: 2.5px;
+  margin-left: 0.2em;
 }
-.top-freelancer h3 {
-  font-size: 34px;
+.navbar-brand > img {
+  float: left;
+  margin-left: 0.6em;
 }
-.top-freelancer p {
-  color: white;
-  font-size: 20px;
+.logoicon {
+  width: 1.8em;
+  height: 1.8em;
 }
-.top-freelancer button {
-  color: #6969A2;
-  padding-top: 0.2em;
-  padding-bottom: 0.2em;
-  padding-left: 4em;
-  padding-right: 4em;
-  font-size: 20px;
-  font-family: sans-serif;
+.topfreelancer {
+  margin: 5em 0;
 }
-#h3header {
-  color: white;
+h1, .paraf-white {
+  color: #fff;
+  padding-bottom: 0.5em;
 }
-.quick
-{
-  margin-top: 5%;
-  width: 100%;
-  height: 286px;
+h1 {
+  font-size: 3.3em;
 }
+.paraf-blanc {
+  font-family: Serif;
+  font-size: 1.7em;
+  padding-bottom: 1em;
+}
+.btn-blanc {
+  color: #8383B5;
+  padding-top: 0.5em;
+  padding-bottom: 0.3em;
+  padding-left: 3em;
+  padding-right: 3em;
+  letter-spacing: 0.2em;
+}
+/*fin header*/
 .border {
-  border-right: 1px solid rgb(171, 171, 171);
+  border-right: 1px solid #8383B5;
+}
+/*début simple pricing*/
+.background {
+  background-color: rgb(242, 242, 242);
+  height: 19em;
+}
+h3 {
+  color: #a19d9d;
 }
 .dollar {
-  width: 100%;
-  height: 350px;
-  border-top: 1px solid rgb(199, 199, 199);
-  background-color: #F6F9FB;
+  float: left;
 }
-.pricing {
-  color: rgb(143, 143, 143);
-  font-size: 24px;
-  margin-top: 6%;
-  margin-bottom: 3%;
-  font-family: sans-serif;
+.dollar p {
+  color: #8383B5;
+  font-size: 4.5em;
+  font-weight: 500;
 }
-#dollar {
-  font-size: 80px;
-  color: #8080BE;
-  margin-right: 17%;
+.pairpaidinvoice {
+  font-size: 2.0em;
+  line-height: 2.1em;
+  margin-bottom: 0;
 }
-.per {
-  margin-left: -18%;
-  font-family: sans-serif;
-  font-size: 34px;
+.transaction {
+  line-height: 0.5em;
+  color: #a19d9d;
+  font-size: 1.1em;
 }
-.creditcard {
-  width: 100%;
-  height: 100px;
-  background-color: #4C535C;
+.top-freelancer1 {
+  margin-top: 5em;
 }
-.creditcard p {
-  font-size: 26px;
-  text-align: center;
-  margin-top: 2%;
-  color: white;
+/*fin simple pricing*/
+/*début creditcards*/
+.creditcards {
+  background-color: #696969;
+  padding: 1.5em 0;
 }
+.creditcards p {
+  color: #fff;
+  font-size: 1.3em;
+  margin: 0;
+}
+/*fin creditcards*/
+/*début 2X6*/
+.border-grey {
+  border-bottom: 1px solid #9b93d0;
+}
+.color-blue {
+  background-color: #71d7f9;
+  overflow: hidden;
+}
+.color-violet {
+  background-color: #9b93d0;
+  overflow: hidden;
+}
+.resize-image-1 {
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  width: 60%;
+  transform: translateY(19%);
+}
+.vertical-center {
+  position: relative;
+  top: 6.5em;
+  bottom: 6.5em;
+}
+.col-md-8 h4 {
+  font-size: 1.7em;
+  letter-spacing: 0.15em;
+  margin-bottom: 1em;
+}
+.col-md-8 p {
+  font-size: 1.25em;
+  color: #696969;
+}
+/*fin 2X6*/

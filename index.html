@@ -1,78 +1,175 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bonsai</title>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <div class="container-fluid">
-      <header>
-        <div class="row-fluid">
-            <nav class="navbar">
+      <!-- début header -->
+      <div class="row">
+        <header class="col-md-12 col-sm-12 col-xs-12">
+          <nav class="navbar">
+            <div class="container-fluid">
               <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#burger" aria-expanded="false">
                   <span class="sr-only">Toggle navigation</span>
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">
-                  <img class="logonav img-responsive" src="img/logo-icon-white.png" alt="">
+                <a class="navbar-brand" href="index.html">
+                  <img src="img/logo-icon-white.png"alt="" class="img-responsive logoicon" style="margin-right: 15px;">
+                  BONSAI
                 </a>
-                <h4>BONSAI</h4>
               </div>
-              <ul class="nav navbar-nav navbar-right" style="margin-right:0;">
-                <li><a href="#" class="navbar-link">LOGIN</a></li>
-                <li><a href="#" class="navbar-link">SIGN UP</a></li>
-              </ul>
-            </nav>
+              <div class="collapse navbar-collapse" id="burger">
+                <ul class="nav navbar-nav navbar-right">
+                  <li>
+                    <a href="#" class="navbar-link">LOGIN</a>
+                  </li>
+                  <li>
+                    <a href="#" class="navbar-link">SIGN UP</a>
+                  </li>
+                </ul>
+              </div><!-- navbar-collapse -->
+            </div><!-- container-fluid -->
+          </nav>
+              <!-- début freelancer -->
+            <div class="row topfreelancer" style="padding-top:50px;">
+              <div class="col-md-12 col-sm-12 col-xs-12">
+                <h1 class="text-center">Simple & Beautiful Payments for Freelancers</h1>
+                <p class="text-center paraf-blanc">Get paid on time, every thing.</p>
+                <button type="button" class="center-block btnblanc">CREATE A FREE ACCOUNT</button>
+              </div>
+            </div>
+            <!-- fin freelancer -->
+          </header>
+          <!-- fin header -->
+      </div>
+      <!-- début ligne 3 images -->
+        <div class="row topfreelancer col-md-12 col-xs-12">
+          <div class=" border col-md-4">
+              <img src="img/calendrier.svg" alt="icon-calendar" class="img-responsive center-block">
+              <h2 class="text-center">Quick</h2>
+              <p class="text-center">to create, pay, and send invoices</p>
+          </div>
+          <div class="border col-md-4">
+              <img src="img/courrier.svg" alt="icon-mail" class="img-responsive center-block">
+              <h2 class="text-center">Beautiful</h2>
+              <p class="text-center">process for the freelancer and client</p>
+          </div>
+          <div class="col-md-4">
+              <img src="img/payments.svg" alt="icon-payments" class="img-responsive center-block">
+              <h2 class="text-center">Secure</h2>
+              <p class="text-center">payments and quick disbursement</p>
+          </div>
         </div>
-        <div class="row-fluid top-freelancer">
-            <div class="col-md-12 col-xs-12">
-              <h3 class="text-center" id="h3header">Simple & Beautiful Payments for Freelancers</h3>
-              <p class="text-center">Get paid on time, every time</p>
-              <button class="center-block" type="button" name="button">Create a free account</button>
+        <!-- fin ligne 3 images -->
+        <!-- début simple pricing -->
+        <div class="row">
+          <div class="top-freelancer-2 col-md-12 background">
+            <div class="col-md-4">
+            </div>
+            <div class="col-md-4">
+              <div class="top-freelancer">
+                <h3 class="text-center">SIMPLE PRICING :<br>PAY WHEN YOU GET PAID</h3>
+                  <div class="dollar center-block col-md-3">
+                    <p>&#x24;1</p>
+                  </div>
+                  <div class="col-md-9">
+                    <p class="text-left-md pairpaidinvoice">PAIR PAID INVOICE</p>
+                    <p class="text-left-md transaction">+ 2.9% & 30&#xA2; transaction free</p>
+                  </div>
+              </div>
+            </div>
+            <div class="col-md-4">
             </div>
         </div>
-      </header>
-      <div class="row-fluid quick">
-        <div class="border col-md-4">
-          <img class="center-block" src="img/calendrier.svg" alt="">
-          <h3 class="text-center">Quick</h3>
-          <p class="text-center">to create, send, and pay invoices</p>
-        </div>
-        <div class="border col-md-4">
-          <img class="center-block" src="img/courrier.svg" alt="">
-          <h3 class="text-center">Beautiful</h3>
-          <p class="text-center">Process for the freelancer and client</p>
-        </div>
-        <div class=" col-md-4">
-          <img class="center-block" src="img/payments.svg" alt="">
-          <h3 class="text-center">Secure</h3>
-          <p class="text-center">Payments and quick disbursement</p>
+      </div>
+      <!-- fin simple pricing -->
+      <!-- début creditcards -->
+      <div class="row">
+         <div class="creditcards col-md-12">
+          <p class="text-center">Credit cards supported now. ACH coming soon !</p>
         </div>
       </div>
-      <div class="row-fluid dollar">
-        <div class="col-md-12">
-          <p class="pricing text-center">SIMPLE PRICING:</br> PAY WHEN YOU GET PAID</p>
+      <!-- fin simple pricing -->
+      <!-- début 2X6 -->
+      <div class="row">
+        <div class="col-md-12 border-grey">
+          <div class="col-md-6 color-blue">
+            <img src="img/welcome1.png" alt="welcome-invoices-graphic" class="img-responsive resize-image-1 center-block">
+          </div>
+          <div class="col-md-6">
+            <div class="col-md-2">
+            </div>
+            <div class="vertical-center col-md-8">
+              <h4 class="text-left">Integrates deeply with<br>Bonsai Contract</h4>
+              <p class="text-left">Increase your paymet rate with Bonsai<br>
+                Contracts : free bulletproof work contracts that<br>
+                are easy to create & e-sign.<br>
+                <br>
+                Once the contract is signed, generate a<br>
+                payment schedule with one click. <i>Contracts<br>
+                are optionnel but recommanded.</i>
+              </p>
+            </div>
+            <div class="col-md-2">
+            </div>
+          </div>
         </div>
-        <div class="col-md-6">
-          <p id="dollar" class="text-right">$1</p>
+        <div class="col-md-12 border-grey">
+          <div class="col-md-6">
+            <div class="col-md-2">
+            </div>
+            <div class="vertical-center col-md-8">
+              <h4 class="text-left">Send & get paid with<br>beautiful invoices</h4>
+              <p class="text-left">Create invoices and request payment with the<br>
+                click of button. Customize them to your<br>
+                brand, the send via email ou URL.<br>
+                <br>
+                Clients can pay quickly and securely via credit<br>
+                card. <i>ACH is coming soon.</i>
+              </p>
+            </div>
+            <div class="col-md-2">
+            </div>
+          </div>
+          <div class="col-md-6 color-violet">
+            <img src="img/welcome2.png" alt="welcome-invoices-graphic-1" class="img-responsive resize-image-1 center-block">
+          </div>
         </div>
-        <div class="col-md-6">
-          <h2 class=" per text-left">PER PAID INVOICE </br><small style="font-size: 16px;">+2,9% & 30c transaction free</small></h2>
+        <div class="col-md-12 border-grey">
+          <div class="col-md-6 color-blue">
+            <img src="img/welcome3.png" alt="welcome-invoices-graphic-2" class="img-responsive resize-image-1 center-block">
+          </div>
+          <div class="col-md-6">
+            <div class="col-md-2">
+            </div>
+            <div class="vertical-center col-md-8">
+              <h4 class="text-left">Get paid on time<br>with SmartPay</h4>
+              <p class="text-left">Escrow-like deposits, smart reminders, soft<br>
+                collections, and much more background<br>
+                magic ensure you're paid on time.<br>
+                <br>
+                Focus on the work you love, not on chasing<br>
+                money. <i>Currently in private bets.</i>
+              </p>
+            </div>
+            <div class="col-md-2">
+            </div>
+          </div>
         </div>
       </div>
-      <div class="row-fluid creditcard">
-        <div class="col-md-12">
-          <p>Credit cards supported now. ACH Coming soon!</p>
-      </div>
+      <!-- fin 2x6-->
     </div>
-    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
